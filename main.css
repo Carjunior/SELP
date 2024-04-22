@@ -1,0 +1,107 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.container-titulo {
+  display: flex;
+  font-size: 5rem;
+  font-weight: bolder;
+  padding-left: 3rem;
+}
+
+.div-geral {
+  display: flex;
+  height: 90vh;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+.div-esquerda {
+  width: 35%;
+}
+
+.div-direita {
+  width: 65%;
+}
+
+.container-toolbars {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 5rem;
+}
+
+.container-toolbars div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container-toolbars img {
+  mix-blend-mode: multiply;
+  width: 15rem;
+  height: 15rem;
+}
+
+.container-user-icon {
+  display: flex;
+  flex-direction: column;
+  padding-left: 2rem;
+  background-color: rgb(210, 216, 221);
+  border: 1px solid #000000;
+}
+
+.container-user-icon div {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  font-size: xx-large;
+}
+
+.container-user-icon img {
+  margin-right: 2rem;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 100%;
+}
+
+.linha-comentarios {
+    border-bottom: 5px solid #000;
+    height: 2px;
+}
+.another-comments-icon {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(210, 216, 221);
+  margin-top: 10rem;
+  margin-right: 7rem;
+  margin-left: 7rem;
+}
+
+.another-comments-icon img {
+  mix-blend-mode: multiply;
+  width: 5rem;
+  height: 5rem;
+  margin-right: 1rem;
+}
+
+.another-comments-icon div {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.container-figma {
+  background-color: rgb(210, 216, 221);
+  display: flex;
+  margin-bottom: 2rem;
+}
+.container-figma img {
+  height: 7rem;
+  mix-blend-mode: multiply;
+}
